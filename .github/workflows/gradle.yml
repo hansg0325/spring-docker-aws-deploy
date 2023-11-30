@@ -4,8 +4,8 @@ on: workflow_dispatch
 
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: easy-code-deploy-bucket
-  CODE_DEPLOY_APPLICATION_NAME: tricount-api-test
+  S3_BUCKET_NAME: my-tricount-bucket
+  CODE_DEPLOY_APPLICATION_NAME: tricount-api
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: tricount_deploy_group
 
 permissions:
